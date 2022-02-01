@@ -1,0 +1,16 @@
+.avatar-sm img {
+  width: 50px;
+  border-radius: 50%;
+}
+.avatar-md img {
+  width: 75px;
+  border-radius: 50%;
+}
+.avatar-l img {
+  width: 100px;
+  border-radius: 50%;
+}
+.avatar-xl img {
+  width: 125px;
+  border-radius: 50%;
+}
