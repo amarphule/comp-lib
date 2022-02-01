@@ -78,8 +78,8 @@ a {
 .list-items {
   list-style: none;
   font-size: 1.5rem;
-  margin: auto 0px;
-  padding: 0px;
+  margin: auto 0rem;
+  padding: 0rem;
 }
 .list-item {
   padding-bottom: 1rem;

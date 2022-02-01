@@ -1,16 +1,16 @@
 .avatar-sm img {
-  width: 50px;
+  width: 3rem;
   border-radius: 50%;
 }
 .avatar-md img {
-  width: 75px;
+  width: 5rem;
   border-radius: 50%;
 }
 .avatar-l img {
-  width: 100px;
+  width: 7rem;
   border-radius: 50%;
 }
 .avatar-xl img {
-  width: 125px;
+  width: 9rem;
   border-radius: 50%;
 }
