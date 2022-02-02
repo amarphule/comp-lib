@@ -1,16 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,300;1,400;1,700&family=Roboto:wght@500&display=swap");
 @import url("./components/avatar.css");
 @import url("./components/badges.css");
+@import url("./components/alert.css");
 
 :root {
   --cta-color: #544af4;
   --hover-bg: #ececf1;
   --primary-color: #161617;
   --secondary-color: #5d585d;
-  --success-color: #3c8855;
-  --warning-color: #f5c118;
-  --error-color: #dc3545;
-  --info-color: #5dcaf0;
+  --success-color: #16ca52;
+  --warning-color: #ca9d0a;
+  --error-color: #d40b1f;
+  --info-color: #148cb8c5;
+  --success-bg: #ace7c093;
+  --warning-bg: #e4d39c9d;
+  --error-bg: #eba3aaa8;
+  --info-bg: #aad6e6b2;
 }
 
 * {

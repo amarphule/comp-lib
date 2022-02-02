@@ -1,0 +1,35 @@
+.alert {
+  margin: 1rem 0;
+  padding: 0.5rem 1rem;
+  width: 70%;
+  box-sizing: border-box;
+  border-radius: 3px;
+  font-size: 1.2rem;
+}
+.close {
+  font-size: 2rem;
+  margin-left: auto;
+  padding: 0.5rem 1rem;
+}
+
+.close:hover {
+  border-radius: 50%;
+  background-color: var(--hover-bg);
+  color: var(--cta-color);
+}
+.alert-info {
+  color: var(--info-color);
+  background-color: var(--info-bg);
+}
+.alert-warn {
+  color: var(--warning-color);
+  background-color: var(--warning-bg);
+}
+.alert-error {
+  color: var(--error-color);
+  background-color: var(--error-bg);
+}
+.alert-success {
+  color: var(--success-color);
+  background-color: var(--success-bg);
+}
