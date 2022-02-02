@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,300;1,400;1,700&family=Roboto:wght@500&display=swap");
 @import url("./components/avatar.css");
+@import url("./components/badges.css");
+
 :root {
   --cta-color: #544af4;
   --hover-bg: #ececf1;
@@ -140,8 +142,10 @@ p {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  margin: 2rem 0;
 }
 .code-container {
+  width: 100%;
   margin-top: 1rem;
   display: flex;
   justify-content: center;
