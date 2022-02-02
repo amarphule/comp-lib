@@ -1,7 +1,4 @@
-.alerts .alert-info,
-.alerts .alert-warn,
-.alerts .alert-error,
-.alerts .alert-success {
+.alert {
   margin: 1rem 0;
   padding: 0.5rem 1rem;
   width: 70%;
