@@ -2,6 +2,7 @@
 @import url("./components/avatar.css");
 @import url("./components/badges.css");
 @import url("./components/alert.css");
+@import url("./components/button.css");
 
 :root {
   --cta-color: #544af4;
@@ -12,7 +13,7 @@
   --warning-color: #ca9d0a;
   --error-color: #d40b1f;
   --info-color: #148cb8c5;
-  --success-bg: #ace7c093;
+  --success-bg: #8bdba593;
   --warning-bg: #e4d39c9d;
   --error-bg: #eba3aaa8;
   --info-bg: #aad6e6b2;
@@ -148,6 +149,7 @@ p {
   justify-content: space-evenly;
   align-items: center;
   margin: 2rem 0;
+  flex-wrap: wrap;
 }
 .code-container {
   width: 100%;
