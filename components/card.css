@@ -1,0 +1,113 @@
+.p-1 {
+  padding: 1rem;
+}
+.pt-1 {
+  padding-top: 1rem;
+}
+.py-1 {
+  padding: 1rem 0px;
+}
+
+.mb-2 {
+  margin-bottom: 2rem;
+}
+
+.card {
+  width: 50%;
+  margin-bottom: 1rem;
+  border: 1px solid var(--secondary-color);
+  box-sizing: border-box;
+  position: relative;
+}
+.card-shadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.d-flex {
+  display: flex;
+}
+
+.img-row {
+  width: 40%;
+  object-fit: cover;
+}
+img {
+  width: 100%;
+  position: relative;
+}
+.card-badge {
+  color: var(--hover-bg);
+  background-color: var(--cta-color);
+  top: 0;
+  border: none;
+  font-weight: bold;
+  position: absolute;
+  font-size: 0.7rem;
+  padding: 0.3rem;
+  border-radius: 2px;
+  text-transform: uppercase;
+}
+.card-badge-icon {
+  top: 1rem;
+  right: 1rem;
+  font-size: 1.5rem;
+  border-radius: 50%;
+  padding: 0.5rem;
+  color: var(--secondary-color);
+  background-color: var(--icon-color);
+}
+.card-badge-icon:hover {
+  color: var(--cta-color);
+  background-color: var(--hover-bg);
+}
+.card-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
+.title {
+  font-weight: 700;
+  color: var(--primary-color);
+  margin-bottom: 0.5rem;
+}
+.subtitle {
+  color: var(--secondary-color);
+}
+.desc {
+  font-size: 0.8rem;
+  color: var(--secondary-color);
+}
+.card-details {
+  box-sizing: border-box;
+  padding: 0rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  position: relative;
+  flex-wrap: wrap;
+}
+.card-details-overlay {
+  position: absolute;
+  bottom: 2rem;
+  left: 2rem;
+  padding: 1rem;
+  width: 80%;
+  border-radius: 5px;
+  background-color: var(--icon-color);
+}
+.title-overlay {
+  font-weight: 700;
+}
+.card-overlay {
+  border: none;
+}
+.card-details-text {
+  padding: 1rem;
+}
+.btns {
+  display: flex;
+  justify-content: space-around;
+}
