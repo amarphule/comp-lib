@@ -19,6 +19,9 @@
   box-sizing: border-box;
   position: relative;
 }
+.card-verticle {
+  width: 30%;
+}
 .card-shadow {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
@@ -92,9 +95,7 @@ img {
 .card-details-overlay {
   position: absolute;
   bottom: 2rem;
-  left: 2rem;
   padding: 1rem;
-  width: 80%;
   border-radius: 5px;
   background-color: var(--icon-color);
 }
