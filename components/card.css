@@ -13,7 +13,7 @@
 }
 
 .card {
-  width: 50%;
+  max-width: 35rem;
   margin-bottom: 1rem;
   border: 1px solid var(--secondary-color);
   box-sizing: border-box;
