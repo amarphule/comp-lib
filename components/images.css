@@ -1,6 +1,6 @@
 .img {
-  max-width: 50rem;
   border-radius: 5px;
+  object-fit: contain;
 }
 .img-thumbnail {
   max-width: 12rem;
