@@ -4,6 +4,7 @@
 @import url("./components/alert.css");
 @import url("./components/button.css");
 @import url("./components/card.css");
+@import url("./components/images.css");
 
 :root {
   --cta-color: #544af4;
