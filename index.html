@@ -486,6 +486,89 @@
           </div>
         </div>
         <!-- Image end -->
+
+        <!-- Input start -->
+        <div class="container">
+          <h2>Input</h2>
+          <p>Here we created custome classes for Input.</p>
+          <h2>1. Input text box</h2>
+          <div class="form">
+            <div class="input-group">
+              <label class="label" for="userId">UserId : </label>
+              <input
+                class="form-control"
+                type="text"
+                name="userId"
+                id="userId"
+                placeholder="Enter UserId"
+              />
+            </div>
+            <div class="input-group">
+              <label class="label" for="password">Password : </label>
+              <input
+                class="form-control"
+                type="password"
+                name="password"
+                id="password"
+                placeholder="Enter Password"
+              />
+            </div>
+          </div>
+          <div class="code-container mb-2">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28221%2C231%2C233%2C1%29&t=seti&wt=none&l=auto&width=714&ds=true&dsyoff=20px&dsblur=66px&wc=true&wa=true&pv=43px&ph=55px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522form%2522%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522input-group%2522%253E%250A%2520%2520%2520%2520%2520%253Clabel%2520class%253D%2522label%2522%2520for%253D%2522email%2522%253EEmail%2520%253A%2520%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%253Cinput%250A%2520%2520%2520%2520%2520%2520%2520class%253D%2522form-control%2522%250A%2520%2520%2520%2520%2520%2520%2520type%253D%2522email%2522%250A%2520%2520%2520%2520%2520%2520%2520name%253D%2522email%2522%250A%2520%2520%2520%2520%2520%2520%2520id%253D%2522email%2522%250A%2520%2520%2520%2520%2520%2520%2520placeholder%253D%2522Enter%2520Email%2522%250A%2520%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522input-group%2522%253E%250A%2520%2520%2520%2520%2520%253Clabel%2520class%253D%2522label%2522%2520for%253D%2522password%2522%253EPassword%2520%253A%2520%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%253Cinput%250A%2520%2520%2520%2520%2520%2520%2520class%253D%2522form-control%2522%250A%2520%2520%2520%2520%2520%2520%2520type%253D%2522password%2522%250A%2520%2520%2520%2520%2520%2520%2520name%253D%2522password%2522%250A%2520%2520%2520%2520%2520%2520%2520id%253D%2522password%2522%250A%2520%2520%2520%2520%2520%2520%2520placeholder%253D%2522Enter%2520Password%2522%250A%2520%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%2520%253C%252Fdiv%253E"
+              style="
+                width: 100%;
+                height: 554px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+          <h2>2. Form with validation</h2>
+          <div class="form">
+            <div class="input-group">
+              <label class="label" for="text">UserId : </label>
+              <input
+                class="form-control validation"
+                type="text"
+                name="text"
+                id="text"
+                placeholder="Enter text"
+              />
+              <div class="error">Please enter correct UserId</div>
+            </div>
+            <div class="input-group">
+              <label class="label" for="password">Password : </label>
+              <input
+                class="form-control validation"
+                type="password"
+                name="password"
+                id="password"
+                placeholder="Enter password"
+              />
+              <div class="error">Please enter correct Password</div>
+            </div>
+          </div>
+          <div class="code-container">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28221%2C231%2C233%2C1%29&t=seti&wt=none&l=auto&width=714&ds=true&dsyoff=20px&dsblur=66px&wc=true&wa=true&pv=43px&ph=55px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522form%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522input-group%2522%253E%250A%2520%2520%2520%2520%253Clabel%2520class%253D%2522label%2522%2520for%253D%2522text%2522%253EUserId%2520%253A%2520%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cinput%250A%2520%2520%2520%2520%2520%2520class%253D%2522form-control%2520validation%2522%250A%2520%2520%2520%2520%2520%2520type%253D%2522text%2522%250A%2520%2520%2520%2520%2520%2520name%253D%2522text%2522%250A%2520%2520%2520%2520%2520%2520id%253D%2522text%2522%250A%2520%2520%2520%2520%2520%2520placeholder%253D%2522Enter%2520text%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522error%2522%253EPlease%2520enter%2520correct%2520UserId%253C%252Fspan%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522input-group%2522%253E%250A%2520%2520%2520%2520%253Clabel%2520class%253D%2522label%2522%2520for%253D%2522password%2522%253EPassword%2520%253A%2520%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cinput%250A%2520%2520%2520%2520%2520%2520class%253D%2522form-control%2520validation%2522%250A%2520%2520%2520%2520%2520%2520type%253D%2522password%2522%250A%2520%2520%2520%2520%2520%2520name%253D%2522password%2522%250A%2520%2520%2520%2520%2520%2520id%253D%2522password%2522%250A%2520%2520%2520%2520%2520%2520placeholder%253D%2522Enter%2520password%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522error%2522%253EPlease%2520enter%2520correct%2520Password%253C%252Fspan%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+              style="
+                width: 100%;
+                height: 592px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </div>
+        <!-- Input end -->
       </div>
     </main>
   </body>
