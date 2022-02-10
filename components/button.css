@@ -29,7 +29,8 @@
 .btn-info:hover,
 .btn-warning:hover,
 .btn-error:hover,
-.btn-cta:hover {
+.btn-cta:hover,
+.btn-float:hover {
   background-color: var(--hover-bg);
 }
 
@@ -75,4 +76,13 @@
 }
 .btn-cta-icon {
   background-color: var(--cta-color);
+}
+.btn-link {
+  text-decoration: underline;
+}
+.btn-link:hover {
+  color: var(--cta-color);
+}
+.btn-float {
+  background-color: var(--success-color);
 }
