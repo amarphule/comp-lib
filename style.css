@@ -114,9 +114,20 @@ a:hover {
   justify-content: space-between;
 }
 
+#installation,
+#avatar,
+#alert,
+#badge,
+#button,
+#card,
+#image,
+#input {
+  scroll-margin-top: 4rem;
+}
 .content {
   box-sizing: border-box;
   padding-top: 3rem;
+  min-height: 100vh;
 }
 
 .brand {

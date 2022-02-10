@@ -31,18 +31,19 @@
     <main class="main-container">
       <div class="left-sidebar">
         <ul class="list-items">
-          <li class="list-item"><a href="">Installation</a></li>
-          <li class="list-item"><a href="">Avatar</a></li>
-          <li class="list-item"><a href="">Badge</a></li>
-          <li class="list-item"><a href="">Alert</a></li>
-          <li class="list-item"><a href="">Button</a></li>
-          <li class="list-item"><a href="">Card</a></li>
-          <li class="list-item"><a href="">Image</a></li>
-          <li class="list-item"><a href="">Input</a></li>
+          <li class="list-item"><a href="#installation">Installation</a></li>
+          <li class="list-item"><a href="#avatar">Avatar</a></li>
+          <li class="list-item"><a href="#alert">Alert</a></li>
+          <li class="list-item"><a href="#badge">Badge</a></li>
+          <li class="list-item"><a href="#button">Button</a></li>
+          <li class="list-item"><a href="#card">Card</a></li>
+          <li class="list-item"><a href="#image">Image</a></li>
+          <li class="list-item"><a href="#input">Input</a></li>
         </ul>
       </div>
       <div class="wrapper">
-        <div class="content">
+        <!-- Installation start -->
+        <div class="content" id="installation">
           <h1>
             Welcome to <span class="brand">Hello-UI</span> Component library
           </h1>
@@ -55,8 +56,10 @@
             <a class="brand" href="">Let's get Start...</a>
           </p>
         </div>
+        <!-- Installation end -->
+
         <!-- Avatar start -->
-        <div class="container">
+        <div class="container" id="avatar">
           <h1>Avatar</h1>
           <p>Here we created custome classes for different sizes of Avatar.</p>
           <p>
@@ -94,8 +97,45 @@
         </div>
         <!-- Avatar end -->
 
+        <!-- Alert start -->
+        <div class="container" id="alert">
+          <h1>Alert</h1>
+          <p>Here we created custome classes for different types of Alerts.</p>
+          <div class="inline alert alert-info">
+            This alert box indicates informative changes
+            <span class="close">&times</span>
+          </div>
+          <div class="inline alert alert-warn">
+            This alert box indicates warning changes
+            <span class="close">&times</span>
+          </div>
+          <div class="inline alert alert-error">
+            This alert box indicates error changes
+            <span class="close">&times</span>
+          </div>
+          <div class="inline alert alert-success">
+            This alert box indicates success changes
+            <span class="close">&times</span>
+          </div>
+          <div class="code-container">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28221%2C231%2C233%2C1%29&t=seti&wt=none&l=auto&width=714&ds=true&dsyoff=20px&dsblur=66px&wc=true&wa=false&pv=43px&ph=55px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253Cdiv%2520class%253D%2522inline%2520alert%2520alert-info%2522%253E%250A%2520%2520%2520%2520This%2520alert%2520box%2520indicates%2520informative%2520changes%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522close%2522%253E%2526times%253C%252Fspan%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522inline%2520alert%2520alert-warn%2522%253E%250A%2520%2520%2520%2520This%2520alert%2520box%2520indicates%2520warning%2520changes%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522close%2522%253E%2526times%253C%252Fspan%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522inline%2520alert%2520alert-error%2522%253E%250A%2520%2520%2520%2520This%2520alert%2520box%2520indicates%2520error%2520changes%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522close%2522%253E%2526times%253C%252Fspan%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522inline%2520alert%2520alert-success%2522%253E%250A%2520%2520%2520%2520This%2520alert%2520box%2520indicates%2520success%2520changes%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522close%2522%253E%2526times%253C%252Fspan%253E%250A%2520%2520%253C%252Fdiv%253E%250A"
+              style="
+                width: 100%;
+                height: 461px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </div>
+        <!-- Alert end -->
+
         <!-- Badges start-->
-        <div class="container">
+        <div class="container" id="badge">
           <h1>Badges</h1>
           <p>Here we created custome classes for different types of Badges.</p>
           <div class="inline">
@@ -133,45 +173,8 @@
         </div>
         <!-- Badges end -->
 
-        <!-- Alert start -->
-        <div class="container">
-          <h1>Alert</h1>
-          <p>Here we created custome classes for different types of Alerts.</p>
-          <div class="inline alert alert-info">
-            This alert box indicates informative changes
-            <span class="close">&times</span>
-          </div>
-          <div class="inline alert alert-warn">
-            This alert box indicates warning changes
-            <span class="close">&times</span>
-          </div>
-          <div class="inline alert alert-error">
-            This alert box indicates error changes
-            <span class="close">&times</span>
-          </div>
-          <div class="inline alert alert-success">
-            This alert box indicates success changes
-            <span class="close">&times</span>
-          </div>
-          <div class="code-container">
-            <iframe
-              src="https://carbon.now.sh/embed?bg=rgba%28221%2C231%2C233%2C1%29&t=seti&wt=none&l=auto&width=714&ds=true&dsyoff=20px&dsblur=66px&wc=true&wa=false&pv=43px&ph=55px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253Cdiv%2520class%253D%2522inline%2520alert%2520alert-info%2522%253E%250A%2520%2520%2520%2520This%2520alert%2520box%2520indicates%2520informative%2520changes%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522close%2522%253E%2526times%253C%252Fspan%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522inline%2520alert%2520alert-warn%2522%253E%250A%2520%2520%2520%2520This%2520alert%2520box%2520indicates%2520warning%2520changes%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522close%2522%253E%2526times%253C%252Fspan%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522inline%2520alert%2520alert-error%2522%253E%250A%2520%2520%2520%2520This%2520alert%2520box%2520indicates%2520error%2520changes%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522close%2522%253E%2526times%253C%252Fspan%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522inline%2520alert%2520alert-success%2522%253E%250A%2520%2520%2520%2520This%2520alert%2520box%2520indicates%2520success%2520changes%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522close%2522%253E%2526times%253C%252Fspan%253E%250A%2520%2520%253C%252Fdiv%253E%250A"
-              style="
-                width: 100%;
-                height: 461px;
-                border: 0;
-                transform: scale(1);
-                overflow: hidden;
-              "
-              sandbox="allow-scripts allow-same-origin"
-            >
-            </iframe>
-          </div>
-        </div>
-        <!-- Alert end -->
-
         <!-- Button start -->
-        <div class="container">
+        <div class="container" id="button">
           <h1>Button</h1>
           <p>Here we created custome classes for different types of Button.</p>
           <div class="inline">
@@ -217,7 +220,7 @@
         <!-- Button end -->
 
         <!-- Cards start -->
-        <div class="container">
+        <div class="container" id="card">
           <h1>Cards</h1>
           <p>Here we created custome classes for different types of Cards.</p>
           <!-- Horizontal simple with shadow-->
@@ -400,7 +403,7 @@
         <!-- Cards end -->
 
         <!-- Image start -->
-        <div class="container">
+        <div class="container" id="image">
           <h1>Images</h1>
           <p>
             Here we created custome classes for different types sizes of image.
@@ -492,8 +495,8 @@
         <!-- Image end -->
 
         <!-- Input start -->
-        <div class="container">
-          <h2>Input</h2>
+        <div class="container" id="input">
+          <h1>Input</h1>
           <p>Here we created custome classes for Input.</p>
           <h2>1. Input text box</h2>
           <div class="form">
