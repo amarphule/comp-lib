@@ -1,0 +1,83 @@
+/* Headings */
+.headings,
+.paragraphs,
+.text-decoration {
+  box-sizing: border-box;
+  padding: 1rem;
+}
+.h1 {
+  font-size: 2rem;
+}
+.h2 {
+  font-size: 1.5rem;
+}
+.h3 {
+  font-size: 1.17rem;
+}
+.h4 {
+  font-size: 1rem;
+}
+.h5 {
+  font-size: 0.83rem;
+}
+.h6 {
+  font-size: 0.67rem;
+}
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  margin: 0.6rem 0;
+  color: var(--primary-color);
+  font-weight: bold;
+  display: block;
+}
+
+/* Paragraphs */
+.text-sm {
+  font-size: 0.67rem;
+}
+.text-md {
+  font-size: 1rem;
+}
+.text-l {
+  font-size: 1.5rem;
+}
+.text-xl {
+  font-size: 2rem;
+}
+.text-sm,
+.text-md,
+.text-l,
+.text-xl,
+.text-gray,
+.text-center,
+.text-mark,
+.line-through,
+p:first-of-type {
+  margin: 0.6rem 0;
+  color: var(--primary-color);
+  font-weight: 800;
+}
+
+/* text-decoration */
+p:first-of-type {
+  color: var(--primary-color);
+}
+.text-mark {
+  background-color: var(--cta-color);
+  color: var(--hover-bg);
+  padding: 4px;
+  border-radius: 3px;
+}
+.text-gray {
+  color: var(--secondary-color);
+}
+.line-through {
+  text-decoration: line-through;
+}
+.text-center {
+  text-align: center;
+}

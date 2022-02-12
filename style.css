@@ -6,6 +6,7 @@
 @import url("./components/card.css");
 @import url("./components/images.css");
 @import url("./components/input.css");
+@import url("./components/textUtilities.css");
 
 :root {
   --cta-color: #544af4;
@@ -124,7 +125,8 @@ a {
 #button,
 #card,
 #image,
-#input {
+#input,
+#textUtilities {
   scroll-margin-top: 4rem;
 }
 .content {
@@ -160,7 +162,8 @@ p {
 
 /* Container for every component start */
 .container {
-  padding: 1rem;
+  padding: 1.5rem;
+  border-bottom: 1px solid var(--secondary-color);
 }
 .inline {
   display: flex;
