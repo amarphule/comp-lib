@@ -1,0 +1,21 @@
+.grid {
+  display: grid;
+  background-color: var(--secondary-color);
+  padding: 1rem;
+  gap: 0.5rem;
+  box-sizing: border-box;
+}
+.grid-two-col {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-three-col {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.one,
+.two,
+.three {
+  background-color: var(--hover-bg);
+  padding: 1rem 0.5rem;
+}
