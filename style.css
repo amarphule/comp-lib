@@ -132,7 +132,8 @@ a {
 #image,
 #input,
 #textUtilities,
-#modal {
+#modal,
+#grid {
   scroll-margin-top: 4rem;
 }
 .content {
