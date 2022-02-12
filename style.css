@@ -79,7 +79,6 @@ a {
 }
 /* left SideBar start */
 .left-sidebar {
-  padding: 2rem;
   position: fixed;
   height: 100vh;
   top: 5rem;
@@ -94,12 +93,16 @@ a {
   padding: 0rem;
 }
 .list-item {
-  padding-bottom: 1rem;
+  padding: 1rem 2rem;
 }
-a:hover {
+
+.list-item:hover {
+  background-color: var(--hover-bg);
   color: var(--cta-color);
   font-weight: bold;
+  border-radius: 5px;
 }
+
 /* left SideBar end */
 
 /* content start */
