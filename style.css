@@ -7,12 +7,14 @@
 @import url("./components/images.css");
 @import url("./components/input.css");
 @import url("./components/textUtilities.css");
+@import url("./components/modal.css");
 
 :root {
   --cta-color: #544af4;
   --hover-bg: #ececf1;
   --primary-color: #161617;
   --secondary-color: #6b696b;
+  --modal-overlay: #7c787c85;
   --success-color: #16ca52;
   --warning-color: #ca9d0a;
   --error-color: #d40b1f;
@@ -81,7 +83,9 @@ a {
 /* left SideBar start */
 .left-sidebar {
   position: fixed;
-  height: 100vh;
+  bottom: 1rem;
+  min-height: 0;
+  overflow-y: scroll;
   top: 5rem;
   width: 20%;
   box-sizing: border-box;
@@ -126,7 +130,8 @@ a {
 #card,
 #image,
 #input,
-#textUtilities {
+#textUtilities,
+#modal {
   scroll-margin-top: 4rem;
 }
 .content {
