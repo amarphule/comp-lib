@@ -13,17 +13,25 @@
   </head>
   <body>
     <header class="header">
-      <div class="header-logo">Hello-UI</div>
+      <div class="header-logo">
+        <a href="#landing-container">Hello-UI</a>
+      </div>
       <div>
         <ul class="header-links">
           <li class="header-link">
-            <a href=""><i class="fab fa-github"></i></a>
+            <a href="https://github.com/amarphule/comp-lib"
+              ><i class="fab fa-github"></i
+            ></a>
           </li>
           <li class="header-link">
-            <a href=""><i class="fab fa-twitter"></i></a>
+            <a href="https://twitter.com/AmardeepPhule"
+              ><i class="fab fa-twitter"></i
+            ></a>
           </li>
           <li class="header-link">
-            <a href=""><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.linkedin.com/in/amardeepphule/"
+              ><i class="fab fa-linkedin"></i
+            ></a>
           </li>
         </ul>
       </div>
@@ -45,8 +53,8 @@
         </ul>
       </div>
       <div class="wrapper">
-        <!-- Installation start -->
-        <div class="content" id="installation">
+        <!-- landing content start -->
+        <div class="content" id="landing-container">
           <h1>
             Welcome to <span class="brand">Hello-UI</span> Component library
           </h1>
@@ -56,8 +64,50 @@
             reusable components.
           </p>
           <p>
-            <a class="brand" href="">Let's get Start...</a>
+            <a class="brand" href="#installation">Let's get Start...</a>
           </p>
+        </div>
+        <!-- landing content end -->
+
+        <!-- Installation start -->
+        <div class="container" id="installation">
+          <h1>
+            Installation <span class="brand">Hello-UI</span> Component library
+          </h1>
+          <p>
+            Follow eitther of this step to configure and get started with
+            Hello-UI component using in your web dev projects.
+          </p>
+          <p>Add below code link in your HTML file head tag.</p>
+          <div class="code-container">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Fcomp-helloui.netlify.app%252Fstyle.css%2522%253E%250A"
+              style="
+                width: 100%;
+                height: 223px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+          <p>You can add @import and url in you main css file.</p>
+          <div class="code-container">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2540import%2520url%28%2522https%253A%252F%252Fcomp-helloui.netlify.app%252Fstyle.css%2522%29%253B"
+              style="
+                width: 100%;
+                height: 205px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
         </div>
         <!-- Installation end -->
 
@@ -66,8 +116,11 @@
           <h1>Avatar</h1>
           <p>Here we created custome classes for different sizes of Avatar.</p>
           <p>
-            Different sizes: avatar-sm, avatar-md, avatar-l, avatar-xl and In
-            img tag src attribute contain image path.
+            Different sizes: Small:<code class="code">avatar-sm</code>, medium:
+            <code class="code">avatar-md</code>, large:
+            <code class="code">avatar-l</code>, Extra large:
+            <code class="code">avatar-xl</code>. In img tag src attribute
+            contain image path.
           </p>
           <div class="inline">
             <div class="avatar-sm">
@@ -104,6 +157,25 @@
         <div class="container" id="alert">
           <h1>Alert</h1>
           <p>Here we created custome classes for different types of Alerts.</p>
+          <p>Different types of alert we have.</p>
+          <ol>
+            <li>
+              Alert for Informative message uses class :
+              <code class="code">alert alert-info</code>
+            </li>
+            <li>
+              Alert for Warning message uses class :
+              <code class="code">alert alert-warn</code>
+            </li>
+            <li>
+              Alert for Error message uses class :
+              <code class="code">alert alert-error</code>
+            </li>
+            <li>
+              Alert for Success message uses class :
+              <code class="code">alert alert-success</code>
+            </li>
+          </ol>
           <div class="inline alert alert-info">
             This alert box indicates informative changes
             <span class="close">&times</span>
@@ -141,6 +213,28 @@
         <div class="container" id="badge">
           <h1>Badges</h1>
           <p>Here we created custome classes for different types of Badges.</p>
+          <p>
+            Different types of badge for Icon, Avatars, on Button we have
+            classes.
+          </p>
+          <ol>
+            <li>
+              Badge on icon uses class :
+              <code class="code">badge badge-icon-val</code>
+            </li>
+            <li>
+              Badge on button uses class :
+              <code class="code">badge badge-icon-val</code>
+            </li>
+            <li>
+              Badge on avatar with value uses class :
+              <code class="code">badge badge-img</code>
+            </li>
+            <li>
+              Badge for showing availability uses class :
+              <code class="code">badge badge-stat</code>
+            </li>
+          </ol>
           <div class="inline">
             <div class="badge-wrapper">
               <i class="far fa-heart"></i>
@@ -161,10 +255,10 @@
           </div>
           <div class="code-container">
             <iframe
-              src="https://carbon.now.sh/embed?bg=rgba%28221%2C231%2C233%2C1%29&t=seti&wt=none&l=auto&width=714&ds=true&dsyoff=20px&dsblur=66px&wc=true&wa=false&pv=43px&ph=55px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-wrapper%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-heart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-icon-val%2522%253E3%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-wrapper%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cbutton%253EAction%253Cspan%2520class%253D%2522badge-icon-val%2522%253E3%253C%252Fspan%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-wrapper%2520avatar-l%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522...%2522%2520alt%253D%2522%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-img%2522%253E3%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-wrapper%2520avatar-l%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522...%2522%2520alt%253D%2522%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-stat%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E"
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522badge-wrapper%2522%253E%250A%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-heart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%253Cspan%2520class%253D%2522badge%2520badge-icon-val%2522%253E3%253C%252Fspan%253E%250A%2520%253C%252Fdiv%253E%250A%2520%253Cdiv%2520class%253D%2522badge-wrapper%2522%253E%250A%2520%2520%2520%253Cbutton%253EAction%253C%252Fbutton%253E%250A%2520%2520%2520%253Cspan%2520class%253D%2522badge%2520badge-icon-val%2522%253E3%253C%252Fspan%253E%250A%2520%253C%252Fdiv%253E%250A%2520%253Cdiv%2520class%253D%2522badge-wrapper%2520avatar-l%2522%253E%250A%2520%2520%2520%253Cimg%2520src%253D%2522...%2522%2520alt%253D%2522avatar%2522%2520%252F%253E%250A%2520%2520%2520%253Cspan%2520class%253D%2522badge%2520badge-img%2522%253E3%253C%252Fspan%253E%250A%2520%253C%252Fdiv%253E%250A%2520%253Cdiv%2520class%253D%2522badge-wrapper%2520avatar-l%2522%253E%250A%2520%2520%2520%253Cimg%2520src%253D%2522...%2522%2520alt%253D%2522avatar-status%2522%2520%252F%253E%250A%2520%2520%2520%253Cspan%2520class%253D%2522badge%2520badge-stat%2522%253E%253C%252Fspan%253E%250A%2520%253C%252Fdiv%253E"
               style="
                 width: 100%;
-                height: 424px;
+                height: 484px;
                 border: 0;
                 transform: scale(1);
                 overflow: hidden;
@@ -180,6 +274,48 @@
         <div class="container" id="button">
           <h1>Button</h1>
           <p>Here we created custome classes for different types of Button.</p>
+          <p>Different types of buttons classes we have.</p>
+          <h3>Solid buttons</h3>
+          <ol>
+            <li>For success :<code class="code">btn btn-success</code></li>
+            <li>For error :<code class="code">btn btn-error</code></li>
+            <li>For warning :<code class="code">btn btn-warning</code></li>
+            <li>For call to action :<code class="code">btn btn-cta</code></li>
+            <li>For info :<code class="code">btn btn-info</code></li>
+          </ol>
+          <h3>With Outline buttons</h3>
+          <ol>
+            <li>
+              For success :<code class="code">btn btn-success-outline</code>
+            </li>
+            <li>For error :<code class="code">btn btn-error-outline</code></li>
+            <li>
+              For warning :<code class="code">btn btn-warning-outline</code>
+            </li>
+            <li>
+              For call to action :<code class="code">btn btn-cta-outline</code>
+            </li>
+            <li>For info :<code class="code">btn btn-info-outline</code></li>
+          </ol>
+          <h3>Button with icon in it</h3>
+          <ol>
+            <li>
+              Outline button with Icon :<code class="code"
+                >btn btn-cta-outline-icon</code
+              >
+            </li>
+            <li>
+              Solid button with Icon :<code class="code">btn btn-cta-icon</code>
+            </li>
+          </ol>
+          <h3>Link button</h3>
+          <ol>
+            <li>Button link :<code class="code">btn btn-link</code></li>
+          </ol>
+          <h3>Float button</h3>
+          <ol>
+            <li>Foat link :<code class="code">btn btn-float</code></li>
+          </ol>
           <div class="inline">
             <button class="btn btn-success">Success</button>
             <button class="btn btn-error">Error</button>
@@ -413,6 +549,12 @@
           </p>
           <div class="img mb-2 py-1">
             <h2>1. Thumbnail images</h2>
+            <ol>
+              <li>
+                For thumbnail image use class
+                <code class="code">img-thubnail</code>
+              </li>
+            </ol>
             <img
               class="img-thumbnail"
               src="./assets/cloth.jpg"
@@ -435,6 +577,12 @@
           </div>
           <div class="img mb-2 py-1">
             <h2>2. Circular/Round images</h2>
+            <ol>
+              <li>
+                For round/circular image use class
+                <code class="code">img-round</code>
+              </li>
+            </ol>
             <img class="img-round" src="./assets/cloth.jpg" alt="Round" />
             <div class="code-container">
               <iframe
@@ -453,6 +601,12 @@
           </div>
           <div class="img mb-2 py-1">
             <h2>3. Responsive images</h2>
+            <ol>
+              <li>
+                For responsive image use class
+                <code class="code">img-fluid</code>
+              </li>
+            </ol>
             <img class="img-fluid" src="./assets/cloth.jpg" alt="Responsive" />
             <div class="code-container">
               <iframe
@@ -471,6 +625,16 @@
           </div>
           <div class="img mb-2 py-1">
             <h2>4. Align images</h2>
+            <ol>
+              <li>
+                For align image container space between use class
+                <code class="code">d-flex space-between</code>
+              </li>
+              <li>
+                For individual image use class
+                <code class="code">img-thumbnail</code>
+              </li>
+            </ol>
             <div class="d-flex space-between">
               <div class="img mb-2 py-1">
                 <img class="img-thumbnail" src="./assets/cloth.jpg" alt="" />
@@ -502,6 +666,20 @@
           <h1>Input</h1>
           <p>Here we created custome classes for Input.</p>
           <h2>1. Input text box</h2>
+          <h3>Without validation for input use class</h3>
+          <ol>
+            <li>
+              Group input :<code class="code">input-group</code>
+              <ol>
+                <li>for label :<code class="code">label</code></li>
+                <li>
+                  for input in this group :<code class="code"
+                    >form-control</code
+                  >
+                </li>
+              </ol>
+            </li>
+          </ol>
           <div class="form">
             <div class="input-group">
               <label class="label" for="userId">UserId : </label>
@@ -539,6 +717,20 @@
             </iframe>
           </div>
           <h2>2. Form with validation</h2>
+          <h3>With validation for input use class</h3>
+          <ol>
+            <li>
+              Group input :<code class="code">input-group</code>
+              <ol>
+                <li>for label :<code class="code">label</code></li>
+                <li>
+                  for input in this group :<code class="code"
+                    >form-control validation</code
+                  >
+                </li>
+              </ol>
+            </li>
+          </ol>
           <div class="form">
             <div class="input-group">
               <label class="label" for="text">UserId : </label>
@@ -586,6 +778,14 @@
           <p>Here we created custome classes for text utilities.</p>
           <div class="headings">
             <h2>1. Headings</h2>
+            <ol>
+              <li>for Heading 1 class : <code class="code">h1</code></li>
+              <li>for Heading 2 class : <code class="code">h2</code></li>
+              <li>for Heading 3 class : <code class="code">h3</code></li>
+              <li>for Heading 4 class : <code class="code">h4</code></li>
+              <li>for Heading 5 class : <code class="code">h5</code></li>
+              <li>for Heading 6 class : <code class="code">h6</code></li>
+            </ol>
             <p class="h1">Heading 1</p>
             <p class="h2">Heading 2</p>
             <p class="h3">Heading 3</p>
@@ -608,6 +808,21 @@
             </div>
             <div class="paragraphs">
               <h2>2. Paragraphs</h2>
+              <ol>
+                <li>
+                  for small text use class : <code class="code">text-sm</code>
+                </li>
+                <li>
+                  for medium text use class : <code class="code">text-md</code>
+                </li>
+                <li>
+                  for large text use class : <code class="code">text-l</code>
+                </li>
+                <li>
+                  for extra large text use class :
+                  <code class="code">text-xl</code>
+                </li>
+              </ol>
               <p class="text-sm">Small Text</p>
               <p class="text-md">Medium Text</p>
               <p class="text-l">Large Text</p>
@@ -629,6 +844,14 @@
             </div>
             <div class="text-decoration">
               <h2>3. Text Decoration</h2>
+              <ol>
+                <li>For text mark : <code class="code">text-mark</code></li>
+                <li>For text gray : <code class="code">text-gray</code></li>
+                <li>
+                  For text line through : <code class="code">line-through</code>
+                </li>
+                <li>For text center : <code class="code">text-center</code></li>
+              </ol>
               <p>This is a <span class="text-mark">Mark</span> Text Example</p>
               <p class="text-gray">Grey Text</p>
               <p class="line-through">This is a line-through Text Example</p>
@@ -654,13 +877,16 @@
 
         <!-- Modal start -->
         <div class="container" id="modal">
-          <h2>Modal</h2>
+          <h1>Modal</h1>
           <p>Here we created custome classes for Different types of modals.</p>
 
           <div class="action">
             <button class="btn btn-cta">Action one</button>
           </div>
-
+          <p>
+            For creating modal button and modal window use classes shown in
+            below code snipet.
+          </p>
           <div class="code-container">
             <iframe
               src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%252F%252FModal%2520action%2520Button%250A%253Cdiv%2520class%253D%2522action%2522%253E%250A%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-cta%2522%253EAction%2520one%253C%252Fbutton%253E%250A%253C%252Fdiv%253E%250A%250A%252F%252FModal%2520container%250A%2520%253Cdiv%2520class%253D%2522modal%2522%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522modal-one%2522%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-header%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520Draft%250A%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522close%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-body%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522text-l%2522%253ESome%2520thing%2520in%2520it%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-footer%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-info-outline%2522%253EAction%25201%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-cta-outline%2522%253EAction%25202%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%2520%253C%252Fdiv%253E"

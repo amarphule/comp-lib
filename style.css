@@ -16,7 +16,7 @@
   --primary-color: #161617;
   --secondary-color: #6b696b;
   --modal-overlay: #7c787c85;
-  --success-color: #16ca52;
+  --success-color: #14943e;
   --warning-color: #ca9d0a;
   --error-color: #d40b1f;
   --info-color: #148cb8c5;
@@ -54,7 +54,7 @@ a {
   border-bottom: 1px solid var(--secondary-color);
   box-shadow: 0 3px 10px var(--secondary-color);
 }
-.header-logo {
+.header-logo a {
   color: var(--cta-color);
   font-weight: 900;
 }
@@ -116,6 +116,7 @@ a {
   position: relative;
   top: 5rem;
   height: 100vh;
+  width: 100%;
   margin-left: 20%;
   box-sizing: border-box;
   display: flex;
@@ -172,6 +173,9 @@ p {
   padding: 1.5rem;
   border-bottom: 1px solid var(--secondary-color);
 }
+.container > p {
+  color: var(--primary-colors);
+}
 .inline {
   display: flex;
   justify-content: space-evenly;
@@ -185,4 +189,22 @@ p {
   display: flex;
   justify-content: center;
 }
-/* Container for every component end*/ ;
+/* Container for every component end*/
+
+/* Code documentation start*/
+ol li {
+  margin: 1rem;
+}
+.code {
+  box-sizing: border-box;
+  color: var(--cta-color);
+  border-radius: 4px;
+}
+/* Code documentation end*/
+
+/* mobile view */
+@media only screen and (max-width: 700px) {
+  .left-sidebar {
+    display: none;
+  }
+}
