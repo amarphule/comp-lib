@@ -3,25 +3,30 @@
   width: 100%;
   display: flex;
   box-sizing: border-box;
-  justify-content: space-between;
+  justify-content: space-around;
   border: 1px solid var(--secondary-color);
 }
-.label {
-  font-size: 1.4rem;
-}
+/* .label {
+  font-size: 1rem;
+} */
 .input-group {
   padding: 1rem;
   border-radius: 5px;
 }
 .form-control {
   padding: 0.3rem 0.7rem;
-  font-size: 1.5rem;
   border-radius: 5px;
+
 }
+
 .validation {
   border: 1px solid var(--error-color);
 }
 .error {
   padding: 0.5rem 0;
   color: var(--error-color);
+}
+.success {
+  padding: 0.5rem 0;
+  color: var(--success-color);
 }

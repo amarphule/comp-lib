@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hello-UI</title>
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.jpg" />
+
     <script
       src="https://kit.fontawesome.com/fe7b324bfb.js"
       crossorigin="anonymous"
@@ -16,17 +18,27 @@
       <div class="header-logo">
         <a href="#landing-container">Hello-UI</a>
       </div>
+      <!-- Sart Theme mode -->
+      <div>
+        <input type="checkbox" class="checkbox" id="checkbox" />
+        <label for="checkbox" class="label-theme">
+          <i class="fas fa-moon"></i>
+          <i class="fas fa-sun"></i>
+          <div class="ball"></div>
+        </label>
+      </div>
+      <!-- End Theme mode -->
       <div>
         <ul class="header-links">
           <li class="header-link">
             <a href="https://github.com/amarphule/comp-lib"
-              ><i class="fab fa-github"></i
-            ></a>
+              ><i class="fab fa-github"></i>
+            </a>
           </li>
           <li class="header-link">
             <a href="https://twitter.com/AmardeepPhule"
-              ><i class="fab fa-twitter"></i
-            ></a>
+              ><i class="fab fa-twitter"></i>
+            </a>
           </li>
           <li class="header-link">
             <a href="https://www.linkedin.com/in/amardeepphule/"
@@ -53,6 +65,11 @@
         </ul>
       </div>
       <div class="wrapper">
+        <!-- Start scroll to top -->
+        <div class="scroll-to-top" id="scrollTop">
+          <i class="fas fa-arrow-alt-circle-up"></i>
+        </div>
+        <!-- End scroll to top -->
         <!-- landing content start -->
         <div class="content" id="landing-container">
           <h1>
@@ -124,16 +141,16 @@
           </p>
           <div class="inline">
             <div class="avatar-sm">
-              <img src="./assets/avatar.png" alt="avatar-small" />
+              <img src="./assets/avatar.png" alt="Avatar-small" />
             </div>
             <div class="avatar-md">
-              <img src="./assets/avatar.png" alt="avatar-medium" />
+              <img src="./assets/avatar.png" alt="Avatar-medium" />
             </div>
             <div class="avatar-l">
-              <img src="./assets/avatar.png" alt="avatar-large" />
+              <img src="./assets/avatar.png" alt="Avatar-large" />
             </div>
             <div class="avatar-xl">
-              <img src="./assets/avatar.png" alt="avatar-extraLarge" />
+              <img src="./assets/avatar.png" alt="Avatar-extraLarge" />
             </div>
           </div>
           <div class="code-container">
@@ -245,11 +262,11 @@
               <span class="badge badge-icon-val">3</span>
             </div>
             <div class="badge-wrapper avatar-l">
-              <img src="./assets/avatar.png" alt="avatar" />
+              <img src="./assets/avatar.png" alt="Avatar" />
               <span class="badge badge-img">3</span>
             </div>
             <div class="badge-wrapper avatar-l">
-              <img src="./assets/avatar.png" alt="avatar-status" />
+              <img src="./assets/avatar.png" alt="Avatar-status" />
               <span class="badge badge-stat"></span>
             </div>
           </div>
@@ -637,10 +654,18 @@
             </ol>
             <div class="d-flex space-between">
               <div class="img mb-2 py-1">
-                <img class="img-thumbnail" src="./assets/cloth.jpg" alt="" />
+                <img
+                  class="img-thumbnail"
+                  src="./assets/cloth.jpg"
+                  alt="Thumbnail"
+                />
               </div>
               <div class="img mb-2 py-1">
-                <img class="img-thumbnail" src="./assets/cloth.jpg" alt="" />
+                <img
+                  class="img-thumbnail"
+                  src="./assets/cloth.jpg"
+                  alt="Thumbnail"
+                />
               </div>
             </div>
             <div class="code-container">
@@ -717,7 +742,7 @@
             </iframe>
           </div>
           <h2>2. Form with validation</h2>
-          <h3>With validation for input use class</h3>
+          <h3 class="pt-1">With Error validation for input use class</h3>
           <ol>
             <li>
               Group input :<code class="code">input-group</code>
@@ -755,12 +780,65 @@
               <div class="error">Please enter correct Password</div>
             </div>
           </div>
+
           <div class="code-container">
             <iframe
               src="https://carbon.now.sh/embed?bg=rgba%28221%2C231%2C233%2C1%29&t=seti&wt=none&l=auto&width=714&ds=true&dsyoff=20px&dsblur=66px&wc=true&wa=true&pv=43px&ph=55px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522form%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522input-group%2522%253E%250A%2520%2520%2520%2520%253Clabel%2520class%253D%2522label%2522%2520for%253D%2522text%2522%253EUserId%2520%253A%2520%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cinput%250A%2520%2520%2520%2520%2520%2520class%253D%2522form-control%2520validation%2522%250A%2520%2520%2520%2520%2520%2520type%253D%2522text%2522%250A%2520%2520%2520%2520%2520%2520name%253D%2522text%2522%250A%2520%2520%2520%2520%2520%2520id%253D%2522text%2522%250A%2520%2520%2520%2520%2520%2520placeholder%253D%2522Enter%2520text%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522error%2522%253EPlease%2520enter%2520correct%2520UserId%253C%252Fspan%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522input-group%2522%253E%250A%2520%2520%2520%2520%253Clabel%2520class%253D%2522label%2522%2520for%253D%2522password%2522%253EPassword%2520%253A%2520%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cinput%250A%2520%2520%2520%2520%2520%2520class%253D%2522form-control%2520validation%2522%250A%2520%2520%2520%2520%2520%2520type%253D%2522password%2522%250A%2520%2520%2520%2520%2520%2520name%253D%2522password%2522%250A%2520%2520%2520%2520%2520%2520id%253D%2522password%2522%250A%2520%2520%2520%2520%2520%2520placeholder%253D%2522Enter%2520password%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522error%2522%253EPlease%2520enter%2520correct%2520Password%253C%252Fspan%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
               style="
                 width: 100%;
                 height: 592px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+          <h3 class="pt-1">With Success validation for input use class</h3>
+          <ol>
+            <li>
+              Group input :<code class="code">input-group</code>
+              <ol>
+                <li>for label :<code class="code">label</code></li>
+                <li>
+                  for input in this group :<code class="code"
+                    >form-control</code
+                  >
+                </li>
+              </ol>
+            </li>
+          </ol>
+          <div class="form">
+            <div class="input-group">
+              <label class="label" for="text">UserId : </label>
+              <input
+                class="form-control"
+                type="text"
+                name="text"
+                id="text"
+                placeholder="Enter text"
+              />
+              <div class="success">Entered correct UserId</div>
+            </div>
+            <div class="input-group">
+              <label class="label" for="password">Password : </label>
+              <input
+                class="form-control"
+                type="password"
+                name="password"
+                id="password"
+                placeholder="Enter password"
+              />
+              <div class="success">Entered correct Password</div>
+            </div>
+          </div>
+          <div class="code-container">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522form%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522input-group%2522%253E%250A%2520%2520%2520%2520%253Clabel%2520class%253D%2522label%2522%2520for%253D%2522text%2522%253EUserId%2520%253A%2520%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cinput%250A%2520%2520%2520%2520%2520%2520class%253D%2522form-control%2522%250A%2520%2520%2520%2520%2520%2520type%253D%2522text%2522%250A%2520%2520%2520%2520%2520%2520name%253D%2522text%2522%250A%2520%2520%2520%2520%2520%2520id%253D%2522text%2522%250A%2520%2520%2520%2520%2520%2520placeholder%253D%2522Enter%2520text%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522success%2522%253EEntered%2520correct%2520UserId%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522input-group%2522%253E%250A%2520%2520%2520%2520%253Clabel%2520class%253D%2522label%2522%2520for%253D%2522password%2522%253EPassword%2520%253A%2520%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cinput%250A%2520%2520%2520%2520%2520%2520class%253D%2522form-control%2522%250A%2520%2520%2520%2520%2520%2520type%253D%2522password%2522%250A%2520%2520%2520%2520%2520%2520name%253D%2522password%2522%250A%2520%2520%2520%2520%2520%2520id%253D%2522password%2522%250A%2520%2520%2520%2520%2520%2520placeholder%253D%2522Enter%2520password%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522success%2522%253EEntered%2520correct%2520Password%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+              style="
+                width: 100%;
+                height: 633px;
                 border: 0;
                 transform: scale(1);
                 overflow: hidden;
@@ -907,7 +985,7 @@
           <div class="modal-one">
             <div class="modal-header">
               Draft
-              <span class="close">
+              <span id="close" class="close">
                 <i class="fas fa-times"></i>
               </span>
             </div>
@@ -1008,6 +1086,8 @@
         <!-- Grid end -->
       </div>
     </main>
+    <script src="./js/theme.js"></script>
+    <script src="./js/scrollTop.js"></script>
     <script src="./js/modal.js"></script>
   </body>
 </html>
