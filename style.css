@@ -25,19 +25,87 @@
   --error-bg: #eba3aaa8;
   --info-bg: #aad6e6b2;
   --icon-color: #ece8ecbd;
+  --white-color: #f8f5f5;
+  --yellow-color: rgb(255, 255, 31);
 }
 
 * {
   margin: 0;
   font-family: "Montserrat Alternates", sans-serif;
 }
+
 a {
   text-decoration: none;
   color: var(--primary-color);
 }
 
+/* Scroll to top */
+.scroll-to-top {
+  display: none; 
+  position: fixed; 
+  bottom: 20px; 
+  right: 30px; 
+  z-index: 99;
+  font-size: 3rem;
+  color: var(--cta-color);
+  cursor: pointer;
+}
+
+/* Scroll to top */
+
+/* Start Theme mode */
+/* body.dark {
+  background-color: var(--primary-color);
+  color: white;
+} */
+
+.checkbox {
+  opacity: 0;
+  position: absolute;
+}
+
+.label-theme {
+  width: 3rem;
+  height: 1.5rem;
+  background-color:var(--primary-color);
+  display: flex;
+  border-radius:50px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  position: relative;
+  transform: scale(1.5);
+  box-sizing: border-box;
+}
+
+.ball {
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: var(--hover-bg);
+  position: absolute;
+  left: 0;
+  border-radius: 50%;
+  transition: transform 0.2s linear;
+}
+
+/*  target the elemenent after the label*/
+.checkbox:checked + .label-theme .ball{
+  transform: translateX(24px);
+}
+
+.fa-moon {
+  color: var(--white-color);
+  font-size: 1rem;
+}
+
+.fa-sun {
+  color: var(--yellow-color);
+  font-size: 1rem;
+}
+
 /* Header start */
 .header {
+  box-sizing: border-box;
   background-color: var(--hover-bg);
   width: 100%;
   margin: auto;
@@ -76,6 +144,9 @@ a {
   margin: 1rem;
 }
 /* Header End */
+
+
+/* End Theme mode */
 .main-container {
   display: flex;
   position: relative;
@@ -206,5 +277,16 @@ ol li {
 @media only screen and (max-width: 700px) {
   .left-sidebar {
     display: none;
+  }
+
+  /* suggested change */
+  body{
+    font-size: 0.7rem;
+  }
+  .wrapper{
+    margin-left: 0;
+  }
+  .form{
+    display: block;
   }
 }
